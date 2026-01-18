@@ -1,0 +1,71 @@
+.header{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+     background: linear-gradient(to right, #07e4bf, #75918c);
+    color: white;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    border-radius: 10px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 500px;
+   
+}
+.details{
+    height: 300px;
+    width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+   
+
+}
+.email{
+    text-align: center;
+}
+.password{
+    text-align: center;
+    
+}
+.login{
+    text-align: center;
+    
+    
+}
+.register{
+    text-align: center;
+    margin-bottom: 5px;
+   padding-bottom: 10px;
+}
+.register a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    height: 30px;
+    width: 80%;
+    margin: 8px;
+    border: 1px solid #07e4bf ;
+    border-radius: 5px;
+    background-color: rgb(243, 240, 240);
+    font-size: 10px;
+}
+.login button{
+    height: 40px;
+    width: 80%;
+     background: linear-gradient(to right, #07e4bf, #75918c);
+    border: none;
+    border-radius: 5px;
+}
+
