@@ -35,6 +35,7 @@ login(){
   if(this.loginForm.valid){
     console.log("login info==>",this.loginForm.value);
     this.router.navigate(['/budget-planer/dashboard']);
+    setTimeout(()=>{alert("Use Desktop site version for better experience");},2000);
   }else{
     this.snackbar.open('invalid email or passsword','close',{duration:3000});
   }
