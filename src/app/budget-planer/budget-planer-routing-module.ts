@@ -10,6 +10,7 @@ import { History } from './history/history';
 import { Profile } from './profile/profile';
 
 const routes: Routes = [
+  {path:'',redirectTo:'login',pathMatch:'full'},
  {path:'login',component:Login},
  {path:'side-nav',component:SideNav},
  {path:'dashboard',component:Dashboard},
